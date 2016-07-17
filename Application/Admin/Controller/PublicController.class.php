@@ -37,4 +37,11 @@ class PublicController extends Controller
         
         $this->display();
     }
+
+    public function logout()
+    {
+        D('AdminUser')->logout();
+        
+        redirect(U('Admin/Public/login'));
+    }
 }

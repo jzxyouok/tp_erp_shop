@@ -73,8 +73,16 @@ class AdminUserModel extends CommonModel
         if(session('user_auth')) {
             return true;
         }
-        
+
         return false;
+    }
+
+    /**
+     * 退出登陆
+     */
+    public function logout()
+    {
+        session('user_auth', null);
     }
     
     

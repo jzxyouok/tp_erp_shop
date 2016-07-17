@@ -12,6 +12,17 @@ use Think\Controller;
 
 class AdminController extends Controller
 {
+    public function _initialize()
+    {
+        /************************************
+         * 验证是否登陆
+         ************************************/
+        
+        if( !D('AdminUser')->checkLogin() ) {
+            redirect(U('Admin/Public/login'));
+        }
+
+    }
 
     public function index()
     {
