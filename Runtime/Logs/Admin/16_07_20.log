@@ -1,0 +1,999 @@
+[ 2016-07-20T14:27:19+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-07-20T14:27:20+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-07-20T14:27:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:28:30+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+ERR: 非法操作:jquery.min.map
+
+[ 2016-07-20T14:28:33+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:jquery.min.map
+
+[ 2016-07-20T14:30:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008753s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008848s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-07-20T14:30:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2016-07-20T14:30:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0010s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:33:07+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-07-20T14:33:09+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2016-07-20T14:33:09+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0013s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:33:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2016-07-20T14:33:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-07-20T14:33:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:34:48+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-07-20T14:34:49+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-07-20T14:34:50+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:36:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-07-20T14:36:17+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-07-20T14:36:17+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:36:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-07-20T14:36:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2016-07-20T14:36:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T14:36:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2016-07-20T14:36:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2016-07-20T14:36:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-07-20T14:48:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 11 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-07-20T14:48:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 12 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 12 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-07-20T14:48:46+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 12 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 12 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-07-20T14:48:46+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 12 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 12 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T15:03:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+
+[ 2016-07-20T15:03:40+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2016-07-20T15:03:41+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-07-20T15:03:41+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0023s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T15:12:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2016-07-20T15:14:52+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminUserModel::login(), called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 14 and defined /var/www/tp_erp_shop/Application/Admin/Model/AdminUserModel.class.php 第 27 行.
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminUserModel::login(), called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 14 and defined /var/www/tp_erp_shop/Application/Admin/Model/AdminUserModel.class.php 第 27 行.
+NOTIC: [8] Array to string conversion /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2016-07-20T15:15:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+ERR: 1146:Table 'ww_erp_shop.admin\_model\_admin_user_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin\_model\_admin_user_model`
+ERR: 1146:Table 'ww_erp_shop.admin\_model\_admin_user_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin\_model\_admin_user_model`
+
+[ 2016-07-20T15:16:31+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 1146:Table 'ww_erp_shop.admin_user_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin_user_model`
+ERR: 1146:Table 'ww_erp_shop.admin_user_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin_user_model`
+
+[ 2016-07-20T15:16:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000967s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-07-20T15:16:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2016-07-20T15:16:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+ERR: 非法操作:skin-config
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php:36) /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-07-20T15:18:19+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+ERR: 1146:Table 'Admin.admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `Admin`.`admin_user`
+ERR: 1146:Table 'Admin.admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `Admin`.`admin_user`
+
+[ 2016-07-20T15:18:30+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+ERR: 1146:Table 'ww_erp_shop.admin\_admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin\_admin_user`
+ERR: 1146:Table 'ww_erp_shop.admin\_admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin\_admin_user`
+
+[ 2016-07-20T15:18:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2016-07-20T15:18:44+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0014s ]
+
+[ 2016-07-20T15:18:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-20T15:19:05+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-07-20T15:21:08+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 13 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 13 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0009s ]
+
+[ 2016-07-20T15:21:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 13 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 13 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+
+[ 2016-07-20T15:22:00+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 13 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 13 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0013s ]
+
+[ 2016-07-20T15:22:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 13 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 13 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0013s ]
+
+[ 2016-07-20T15:22:08+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::_initialize() should be compatible with Admin\Controller\AdminController::_initialize(Think\Model $model) /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 7 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\IndexController::_initialize() must be an instance of Admin\Model\AdminUserModel, none given, called in /var/www/tp_erp_shop/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: model /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php 第 13 行.
+NOTIC: [4096] Argument 1 passed to Admin\Controller\AdminController::_initialize() must be an instance of Think\Model, null given, called in /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php on line 13 and defined /var/www/tp_erp_shop/Application/Admin/Controller/AdminController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-07-20T15:22:53+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-07-20T15:22:54+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/tp_erp_shop/Application/Admin/Controller/IndexController.class.php:18) /var/www/tp_erp_shop/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2016-07-20T15:22:54+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0012s ]
+ERR: 非法操作:skin-config
+

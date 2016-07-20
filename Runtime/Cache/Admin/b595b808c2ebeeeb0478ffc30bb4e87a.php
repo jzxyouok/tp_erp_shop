@@ -471,7 +471,7 @@
             </button>
             <nav class="page-tabs J_menuTabs">
                 <div class="page-tabs-content">
-                    <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
+                    <a href="javascript:void(0)" class="active J_menuTab" data-id="<?php echo U('Index/main');?>">首页</a>
                 </div>
             </nav>
             <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
@@ -504,7 +504,6 @@
     <!--右侧边栏开始-->
     <div id="right-sidebar">
         <div class="sidebar-container">
-
             <ul class="nav nav-tabs navs-3">
 
                 <li class="active"><a data-toggle="tab" href="#tab-1">
@@ -520,6 +519,7 @@
                         <i class="fa fa-gear"></i>
                     </a>
                 </li>
+
             </ul>
 
             <div class="tab-content">
@@ -859,11 +859,7 @@
 
                 </div>
             </div>
-
         </div>
-
-
-
     </div>
     <!--右侧边栏结束-->
     <!--mini聊天窗口开始-->
@@ -1065,7 +1061,7 @@
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/hplus.min.js?v=3.2.0"></script>
-<script type="text/javascript" src="/tp_erp_shop/Public/admin/js/contabs.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/contabs.min.js"></script>
 
 <!-- 第三方插件 -->
 <script src="/tp_erp_shop/Public/admin/js/plugins/pace/pace.min.js"></script>

@@ -13,11 +13,6 @@
     <link href="/tp_erp_shop/Public/admin/css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
     <link href="/tp_erp_shop/Public/admin/css/font-awesome.min.css?v=4.3.0" rel="stylesheet">
 
-    <!-- Morris -->
-    <link href="/tp_erp_shop/Public/admin/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
-
-    <!-- Gritter -->
-    <link href="/tp_erp_shop/Public/admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
     <link href="/tp_erp_shop/Public/admin/css/animate.min.css" rel="stylesheet">
     <link href="/tp_erp_shop/Public/admin/css/style.min.css?v=3.2.0" rel="stylesheet">
@@ -25,6 +20,11 @@
     
 
     
+
+    <!-- 全局js -->
+    <script src="/tp_erp_shop/Public/admin/js/jquery.min.js"></script>
+    <script src="/tp_erp_shop/Public/admin/js/bootstrap.min.js?v=3.4.0"></script>
+
 </head>
 
 <body class="gray-bg">
@@ -465,46 +465,29 @@
 
 </div>
 
-<!-- 全局js -->
-<script src="/tp_erp_shop/Public/admin/js/jquery.min.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/bootstrap.min.js?v=3.4.0"></script>
+<script type="text/javascript">
+    (function(){
+        var ThinkPHP = window.Think = {
+            "ROOT"   : "/tp_erp_shop", //当前网站地址
+            "APP"    : "/tp_erp_shop", //当前项目地址
+            "PUBLIC" : "/tp_erp_shop/Public", //项目公共目录地址
+            "ADMIN"  : "/tp_erp_shop/Public/admin",  //后台资源目录
+            "DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO 分割符
+            "MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],
+            "VAR"    : ["<?php echo C('VAR_MODULE');?>", "<?php echo C('VAR_CONTROLLER');?>", "<?php echo C('VAR_ACTION');?>"]
+        };
+    })();
+    var _ROOT_ = "/tp_erp_shop";
+    var _ADDONS_ = "__ADDONS__";
+</script>
 
-
-<!-- Flot -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.resize.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.pie.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/flot/jquery.flot.symbol.js"></script>
-
-<!-- Peity -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/peity/jquery.peity.min.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/demo/peity-demo.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/plugins/layer/layer.min.js"></script>
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/content.min.js?v=1.0.0"></script>
 
-
 <!-- jQuery UI -->
 <script src="/tp_erp_shop/Public/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-<!-- Jvectormap -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="/tp_erp_shop/Public/admin/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-
-<!-- EayPIE -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
-
-<!-- Sparkline -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
-
-<!-- Sparkline demo data  -->
-<script src="/tp_erp_shop/Public/admin/js/demo/sparkline-demo.min.js"></script>
-
-<script>
-    $(document).ready(function(){$(".chart").easyPieChart({barColor:"#f8ac59",scaleLength:5,lineWidth:4,size:80});$(".chart2").easyPieChart({barColor:"#1c84c6",scaleLength:5,lineWidth:4,size:80});var h=[[c(2012,1,1),7],[c(2012,1,2),6],[c(2012,1,3),4],[c(2012,1,4),8],[c(2012,1,5),9],[c(2012,1,6),7],[c(2012,1,7),5],[c(2012,1,8),4],[c(2012,1,9),7],[c(2012,1,10),8],[c(2012,1,11),9],[c(2012,1,12),6],[c(2012,1,13),4],[c(2012,1,14),5],[c(2012,1,15),11],[c(2012,1,16),8],[c(2012,1,17),8],[c(2012,1,18),11],[c(2012,1,19),11],[c(2012,1,20),6],[c(2012,1,21),6],[c(2012,1,22),8],[c(2012,1,23),11],[c(2012,1,24),13],[c(2012,1,25),7],[c(2012,1,26),9],[c(2012,1,27),9],[c(2012,1,28),8],[c(2012,1,29),5],[c(2012,1,30),8],[c(2012,1,31),25]];var g=[[c(2012,1,1),800],[c(2012,1,2),500],[c(2012,1,3),600],[c(2012,1,4),700],[c(2012,1,5),500],[c(2012,1,6),456],[c(2012,1,7),800],[c(2012,1,8),589],[c(2012,1,9),467],[c(2012,1,10),876],[c(2012,1,11),689],[c(2012,1,12),700],[c(2012,1,13),500],[c(2012,1,14),600],[c(2012,1,15),700],[c(2012,1,16),786],[c(2012,1,17),345],[c(2012,1,18),888],[c(2012,1,19),888],[c(2012,1,20),888],[c(2012,1,21),987],[c(2012,1,22),444],[c(2012,1,23),999],[c(2012,1,24),567],[c(2012,1,25),786],[c(2012,1,26),666],[c(2012,1,27),888],[c(2012,1,28),900],[c(2012,1,29),178],[c(2012,1,30),555],[c(2012,1,31),993]];var e=[{label:"订单数",data:g,color:"#1ab394",bars:{show:true,align:"center",barWidth:24*60*60*600,lineWidth:0}},{label:"付款数",data:h,yaxis:2,color:"#464f88",lines:{lineWidth:1,show:true,fill:true,fillColor:{colors:[{opacity:0.2},{opacity:0.2}]}},splines:{show:false,tension:0.6,lineWidth:1,fill:0.1},}];var a={xaxis:{mode:"time",tickSize:[3,"day"],tickLength:0,axisLabel:"Date",axisLabelUseCanvas:true,axisLabelFontSizePixels:12,axisLabelFontFamily:"Arial",axisLabelPadding:10,color:"#838383"},yaxes:[{position:"left",max:1070,color:"#838383",axisLabelUseCanvas:true,axisLabelFontSizePixels:12,axisLabelFontFamily:"Arial",axisLabelPadding:3},{position:"right",clolor:"#838383",axisLabelUseCanvas:true,axisLabelFontSizePixels:12,axisLabelFontFamily:" Arial",axisLabelPadding:67}],legend:{noColumns:1,labelBoxBorderColor:"#000000",position:"nw"},grid:{hoverable:false,borderWidth:0,color:"#838383"}};function c(j,k,i){return new Date(j,k-1,i).getTime()}var b=null,d=null;$.plot($("#flot-dashboard-chart"),e,a);var f={"US":298,"SA":200,"DE":220,"FR":540,"CN":120,"AU":760,"BR":550,"IN":200,"GB":120,};$("#world-map").vectorMap({map:"world_mill_en",backgroundColor:"transparent",regionStyle:{initial:{fill:"#e4e4e4","fill-opacity":0.9,stroke:"none","stroke-width":0,"stroke-opacity":0}},series:{regions:[{values:f,scale:["#1ab394","#22d6b1"],normalizeFunction:"polynomial"}]},})});
-</script>
 
 
 
