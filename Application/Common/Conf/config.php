@@ -4,7 +4,7 @@ return array(
     'DATA_AUTH_KEY'	=> 'abcdefghijklmnopqrstuvwxyz',	// 系统默认加密密钥 如 登陆 密码加密密钥
 
     /* 全局过滤配置 */
-    'DEFAULT_FILTER' => 'filtration', //全局过滤函数 
+    'DEFAULT_FILTER' => '', //全局过滤函数  filtration
 
     // '配置项'=>'配置值'
     'DB_DSN' => '', // 数据库连接DSN 用于PDO方式
