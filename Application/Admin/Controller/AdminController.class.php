@@ -76,6 +76,10 @@ class AdminController extends Controller
             $this->addBefore();
         }
 
+        $method_name = '添加';
+
+        $this->assign( compact('method_name') );
+
         $this->display('edit');
     }
 
@@ -84,6 +88,9 @@ class AdminController extends Controller
      */
     public function edit($id)
     {
+
+        $method_name = '编辑';
+
         //  判断是否有前置操作校验
         if(method_exists($this,'editBefore')) {
             $this->editBefore();
@@ -91,7 +98,7 @@ class AdminController extends Controller
 
         $detail = $this->model->where( [$this->model->getPk() => $id] )->find();
 
-        $this->assign(compact('detail'));
+        $this->assign(compact('detail', 'method_name'));
 
         $this->display('edit');
     }
@@ -169,9 +176,9 @@ class AdminController extends Controller
     /**
      * 通用分页列表数据集获取方法
      *
-     *  可以通过url参数传递where条件,例如:  index.html?name=asdfasdfasdfddds
-     *  可以通过url空值排序字段和方式,例如: index.html?_field=id&_order=asc
-     *  可以通过url参数r指定每页数据条数,例如: index.html?r=5
+     *  可以通过url参数传递where条件,例如:  index.html.bak?name=asdfasdfasdfddds
+     *  可以通过url空值排序字段和方式,例如: index.html.bak?_field=id&_order=asc
+     *  可以通过url参数r指定每页数据条数,例如: index.html.bak?r=5
      *
      * @param sting|Model  $model   模型名或模型实例
      * @param array        $where   where查询条件(优先级: $where>$_REQUEST>模型设定)

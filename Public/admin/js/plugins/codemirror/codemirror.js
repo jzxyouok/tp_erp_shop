@@ -6367,7 +6367,7 @@
       else this.iterN(this.first, this.first + this.size, from);
     },
 
-    // Non-Public interface for adding and removing lines.
+    // Non-public interface for adding and removing lines.
     insert: function(at, lines) {
       var height = 0;
       for (var i = 0; i < lines.length; ++i) height += lines[i].height;
@@ -6375,7 +6375,7 @@
     },
     remove: function(at, n) { this.removeInner(at - this.first, n); },
 
-    // From here, the methods are part of the Public interface. Most
+    // From here, the methods are part of the public interface. Most
     // are also available from CodeMirror (editor) instances.
 
     getValue: function(lineSep) {

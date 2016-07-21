@@ -156,7 +156,7 @@
         },
         plot = this;
 
-        // Public functions
+        // public functions
         plot.setData = setData;
         plot.setupGrid = setupGrid;
         plot.draw = draw;
@@ -201,7 +201,7 @@
             resizeCanvas(overlay);
         };
 
-        // Public attributes
+        // public attributes
         plot.hooks = hooks;
         
         // initialize

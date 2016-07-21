@@ -35,7 +35,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>自定义响应式表格</h5>
+                    <h5><?php echo ($business_type_name); ?>管理</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -54,8 +54,9 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="ibox-content">
-                    <div class="row">
+                    <!--<div class="row">
                         <div class="col-sm-5 m-b-xs">
                             <select class="input-sm form-control input-s-sm inline">
                                 <option value="0">请选择</option>
@@ -80,69 +81,73 @@
                                         <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
                             </div>
                         </div>
+                    </div>-->
+
+
+                    <div class="row">
+                        <div class="col-sm-8 m-b-xs">
+                            <a href="javascript:void(0)" url="<?php echo U('add', array('type'=>$business_type));?>" rel="" title="添加<?php echo ($business_type_name); ?>" class="btn btn-sm btn-primary my-popup"> 添加<?php echo ($business_type_name); ?> </a>
+
+                            <a href="javascript:history.go(0)" class="btn btn-sm btn-primary"> 刷新 </a>
+
+                             <!--<a href="javascript:history.go(-1)" class="btn btn-sm btn-primary"> 返回上一步 </a>-->
+
+                            <input type="button" url="<?php echo U('delete',array('Model'=>'UserOrganization','status'=>'-1'));?>" class="btn btn-sm btn-primary ajax-post confirm" target-form="ids" value="删除">
+
+                            <a href="<?php echo U('index?'.$paramstr,array('parent_id'=>0,'type'=>2));?>" class="btn btn-sm btn-primary">单独部门</a>
+                        </div>
+                        <form action="<?php echo U('index?'.$paramstr);?>" method="get">
+                            <div class="col-sm-3">
+                                <div class="input-group">
+                                    <input type="text" placeholder="请输<?php echo ($business_type_name); ?>名称" class="input-sm form-control" name="keywords" value="<?php echo ((isset($param['keywords']) && ($param['keywords'] !== ""))?($param['keywords']):''); ?>"> <span class="input-group-btn">
+                                    <button type="submit" class="btn btn-sm btn-primary"> 搜索</button> </span>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+
+
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
                             <tr>
-
                                 <th></th>
-                                <th>项目</th>
-                                <th>进度</th>
-                                <th>任务</th>
-                                <th>日期</th>
+                                <th>名称</th>
+                                <th>等级</th>
+                                <th>结算方式</th>
+                                <th>结算日期</th>
+                                <th>期初应付/收款</th>
+                                <th>期初预付/收款</th>
+                                <th>联系人姓名</th>
+                                <th>联系人电话</th>
+                                <th>商家地址</th>
+                                <th>商家描述</th>
+                                <th>创建时间</th>
+                                <th>更新时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>
-                                    <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" checked="" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                </td>
-                                <td>米莫说｜MiMO Show</td>
-                                <td><span class="pie" style="display: none;">0.52/1.561</span><svg class="peity" height="16" width="16"><path d="M 8 8 L 8 0 A 8 8 0 0 1 14.933563796318165 11.990700825968545 Z" fill="#1ab394"></path><path d="M 8 8 L 14.933563796318165 11.990700825968545 A 8 8 0 1 1 7.999999999999998 0 Z" fill="#d7d7d7"></path></svg>
-                                </td>
-                                <td>20%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                </td>
-                                <td>商家与购物用户的交互试衣应用</td>
-                                <td><span class="pie" style="display: none;">6,9</span><svg class="peity" height="16" width="16"><path d="M 8 8 L 8 0 A 8 8 0 0 1 12.702282018339785 14.47213595499958 Z" fill="#1ab394"></path><path d="M 8 8 L 12.702282018339785 14.47213595499958 A 8 8 0 1 1 7.999999999999998 0 Z" fill="#d7d7d7"></path></svg>
-                                </td>
-                                <td>40%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                </td>
-                                <td>天狼---智能硬件项目</td>
-                                <td><span class="pie" style="display: none;">3,1</span><svg class="peity" height="16" width="16"><path d="M 8 8 L 8 0 A 8 8 0 1 1 0 8.000000000000002 Z" fill="#1ab394"></path><path d="M 8 8 L 0 8.000000000000002 A 8 8 0 0 1 7.999999999999998 0 Z" fill="#d7d7d7"></path></svg>
-                                </td>
-                                <td>75%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                </td>
-                                <td>线下超市+线上商城+物流配送互联系统</td>
-                                <td><span class="pie" style="display: none;">4,9</span><svg class="peity" height="16" width="16"><path d="M 8 8 L 8 0 A 8 8 0 0 1 15.48012994148332 10.836839096340286 Z" fill="#1ab394"></path><path d="M 8 8 L 15.48012994148332 10.836839096340286 A 8 8 0 1 1 7.999999999999998 0 Z" fill="#d7d7d7"></path></svg>
-                                </td>
-                                <td>18%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
+                            <?php if(is_array($_list)): $i = 0; $__LIST__ = $_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                    <td>
+                                        <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" checked="" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                                    </td>
+                                    <td><?php echo ($vo['name']); ?></td>
+                                    <td><?php echo ($vo['level']); ?></td>
+                                    <td><?php echo ($vo['settlement_type']); ?></td>
+                                    <td><?php echo ($vo['settlement_date']); ?></td>
+                                    <td><?php echo ($vo['st_receive_money']); ?></td>
+                                    <td><?php echo ($vo['st_period_receive_money']); ?></td>
+                                    <td><?php echo ($vo['contact_name']); ?></td>
+                                    <td><?php echo ($vo['contact_mobile']); ?></td>
+                                    <td><?php echo ($vo['address']); ?></td>
+                                    <td><?php echo ($vo['memo']); ?></td>
+                                    <td><?php echo ($vo['created_at']); ?></td>
+                                    <td><?php echo ($vo['updated_at']); ?></td>
+                                    <td>
+
+                                    </td>
+                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>
                     </div>
@@ -171,13 +176,15 @@
     var _ADDONS_ = "__ADDONS__";
 </script>
 
+<!-- jQuery UI -->
+<script src="/tp_erp_shop/Public/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
 <script src="/tp_erp_shop/Public/admin/js/plugins/layer/layer.min.js"></script>
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/content.min.js?v=1.0.0"></script>
 
-<!-- jQuery UI -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/public.js"></script>
 
 
 

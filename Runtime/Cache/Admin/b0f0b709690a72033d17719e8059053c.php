@@ -481,13 +481,15 @@
     var _ADDONS_ = "__ADDONS__";
 </script>
 
+<!-- jQuery UI -->
+<script src="/tp_erp_shop/Public/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
 <script src="/tp_erp_shop/Public/admin/js/plugins/layer/layer.min.js"></script>
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/content.min.js?v=1.0.0"></script>
 
-<!-- jQuery UI -->
-<script src="/tp_erp_shop/Public/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/public.js"></script>
 
 
 

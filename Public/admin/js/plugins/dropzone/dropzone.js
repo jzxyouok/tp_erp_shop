@@ -6,7 +6,7 @@
      *
      * @param {String} name
      * @return {Object} exports
-     * @api Public
+     * @api public
      */
 
     function require(name) {
@@ -66,7 +66,7 @@
         /**
          * Initialize a new `Emitter`.
          *
-         * @api Public
+         * @api public
          */
 
         function Emitter(obj) {
@@ -94,7 +94,7 @@
          * @param {String} event
          * @param {Function} fn
          * @return {Emitter}
-         * @api Public
+         * @api public
          */
 
         Emitter.prototype.on =
@@ -112,7 +112,7 @@
          * @param {String} event
          * @param {Function} fn
          * @return {Emitter}
-         * @api Public
+         * @api public
          */
 
         Emitter.prototype.once = function(event, fn){
@@ -136,7 +136,7 @@
          * @param {String} event
          * @param {Function} fn
          * @return {Emitter}
-         * @api Public
+         * @api public
          */
 
         Emitter.prototype.off =
@@ -201,7 +201,7 @@
          *
          * @param {String} event
          * @return {Array}
-         * @api Public
+         * @api public
          */
 
         Emitter.prototype.listeners = function(event){
@@ -214,7 +214,7 @@
          *
          * @param {String} event
          * @return {Boolean}
-         * @api Public
+         * @api public
          */
 
         Emitter.prototype.hasListeners = function(event){
