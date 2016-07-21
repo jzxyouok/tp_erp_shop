@@ -129,6 +129,8 @@ class AdminController extends Controller
         if(method_exists($this,'saveBefore')) {
             $this->saveBefore();
         }
+
+        $this->error("操作失败");
     }
 
     /**

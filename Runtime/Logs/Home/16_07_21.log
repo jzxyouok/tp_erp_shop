@@ -299,3 +299,228 @@ ERR: 无法加载控制器:Public
 NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
 NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
 
+[ 2016-07-21T16:48:55+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T16:49:08+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T16:51:52+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:09:43+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:15:23+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:16:40+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:16:47+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/plugins/layer/skin/default/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-21T17:17:11+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:18:10+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:41:10+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:42:50+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:43:05+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:43:11+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:44:18+08:00 ] 127.0.0.1 /tp_erp_shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-21T17:46:22+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:47:47+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:50:12+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:51:12+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/plugins/layer/skin/default/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-07-21T17:51:33+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:52:05+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+
+[ 2016-07-21T17:52:50+08:00 ] 127.0.0.1 /tp_erp_shop/Public/admin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载控制器:Public
+NOTIC: [2] include(): Filename cannot be empty /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/tp_erp_shop/ThinkPHP/Library/Think/Think.class.php 第 314 行.
+

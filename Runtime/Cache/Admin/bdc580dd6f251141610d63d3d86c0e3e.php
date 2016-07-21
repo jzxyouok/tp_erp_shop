@@ -17,6 +17,14 @@
     <link href="/tp_erp_shop/Public/admin/css/animate.min.css" rel="stylesheet">
     <link href="/tp_erp_shop/Public/admin/css/style.min.css?v=3.2.0" rel="stylesheet">
 
+    <!--提示框-->
+    <link href="/tp_erp_shop/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <style>
+        .col-sm-12,.col-sm-11,.col-sm-10,.col-sm-9,.col-sm-8,.col-sm-7,.col-sm-6,.col-sm-5,.col-sm-4,.col-sm-3,.col-sm-2,.col-sm-1{ padding-left: 5px; padding-right: 5px;}
+
+        .col-md-12,.col-md-11,.col-md-10,.col-md-9,.col-md-8,.col-md-7,.col-md-6,.col-md-5,.col-md-4,.col-md-3,.col-md-2,.col-md-1{ padding-left: 15px; padding-right: 15px;}
+    </style>
     
 
     
@@ -183,6 +191,8 @@
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/content.min.js?v=1.0.0"></script>
+
+<script src="/tp_erp_shop/Public/admin/js/plugins/toastr/toastr.min.js"></script>
 
 <script src="/tp_erp_shop/Public/admin/js/public.js"></script>
 

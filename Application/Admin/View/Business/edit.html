@@ -15,72 +15,114 @@
 
             <div class="ibox-content">
                 <form action="{:U('save')}" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+                    <input type="hidden" name="type" value="{$business_type}">
                     <div class="row">
 
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">文本框：</label>
-                                <div class="col-sm-9">
-                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
-                                    <!--<span class="help-block m-b-none">说明文字</span>-->
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">单选框：</label>
-                                <div class="col-sm-9">
-
-                                    <div class="radio i-checks">
-                                        <label>
-                                            <input type="radio" name="status" value="2" checked > <i></i> 是</label>
-                                        <label>
-                                            <input type="radio" name="status" value="1" > <i></i> 否</label>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">名称：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="name" class="form-control" placeholder="请输入{$business_type_name}名称">
+                                        <!--<span class="help-block m-b-none">说明文字</span>-->
                                     </div>
+                                </div>
 
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家地址：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家等级：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <volist name="business_level" id="vo">
+                                                <label>
+                                                    <input type="radio" name="level" value="{$key}" checked > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                            </volist>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算日期：</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" name="settlement_date" placeholder="请输入密码">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">联系人：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">电话：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="contact_mobile" placeholder="请输入联系人电话">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算方式：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <volist name="settlement_type" id="vo">
+                                                <label>
+                                                    <input type="radio" name="settlement_type" value="{$key}" checked > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                            </volist>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款">
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="col-md-12">
+
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-1 control-label">商家描述：</label>
+                                    <div class="col-sm-11">
+                                        <textarea class="form-control" name="memo" placeholder="商家描述"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-1">
+                                        <button class="btn btn-primary" type="submit">提交</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                        </div>
 
 
-
-                        <div class="col-md-6">
-                            <div class="hr-line-dashed"></div>
-                            <div class="form-group">
-                                <div class="col-sm-4 col-sm-offset-3">
-                                    <button class="btn btn-primary" type="submit">提交</button>
-                                </div>
-                            </div>
                         </div>
 
 

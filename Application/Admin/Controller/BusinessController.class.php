@@ -13,10 +13,10 @@ class BusinessController extends AdminController
 {
 
     protected $model_name = 'Business';
-    
+
     protected function middleware()
     {
-        $business_type = I('get.type', 0);
+        $business_type = I('param.type', 0);
 
         if( empty($business_type) ) {
             $this->error("缺少必要的商家类型条件");
@@ -29,10 +29,31 @@ class BusinessController extends AdminController
         return true;
     }
 
+    /**
+     * 返回 列表条件 等options
+     * @param $options
+     * @return mixed
+     */
     protected function getListsOptions($options)
     {
         $options['where']['type'] = I('request.type', 0);
         
         return $options;
+    }
+
+    private function addEditBefore()
+    {
+        $business_level = C('business_level');
+
+        $settlement_type = C('settlement_type');
+        
+        $this->assign(compact('business_level', 'settlement_type'));
+    }
+    /**
+     * 添加前置操作
+     */
+    protected function addBefore()
+    {
+        $this->addEditBefore();
     }
 }

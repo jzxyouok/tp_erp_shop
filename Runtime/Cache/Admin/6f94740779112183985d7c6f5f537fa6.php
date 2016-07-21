@@ -17,6 +17,14 @@
     <link href="/tp_erp_shop/Public/admin/css/animate.min.css" rel="stylesheet">
     <link href="/tp_erp_shop/Public/admin/css/style.min.css?v=3.2.0" rel="stylesheet">
 
+    <!--提示框-->
+    <link href="/tp_erp_shop/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <style>
+        .col-sm-12,.col-sm-11,.col-sm-10,.col-sm-9,.col-sm-8,.col-sm-7,.col-sm-6,.col-sm-5,.col-sm-4,.col-sm-3,.col-sm-2,.col-sm-1{ padding-left: 5px; padding-right: 5px;}
+
+        .col-md-12,.col-md-11,.col-md-10,.col-md-9,.col-md-8,.col-md-7,.col-md-6,.col-md-5,.col-md-4,.col-md-3,.col-md-2,.col-md-1{ padding-left: 15px; padding-right: 15px;}
+    </style>
     
     <link href="/tp_erp_shop/Public/admin/css/plugins/iCheck/custom.css" rel="stylesheet">
 
@@ -44,72 +52,110 @@
 
             <div class="ibox-content">
                 <form action="<?php echo U('save');?>" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+                    <input type="hidden" name="type" value="<?php echo ($business_type); ?>">
                     <div class="row">
 
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">文本框：</label>
-                                <div class="col-sm-9">
-                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
-                                    <!--<span class="help-block m-b-none">说明文字</span>-->
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">单选框：</label>
-                                <div class="col-sm-9">
-
-                                    <div class="radio i-checks">
-                                        <label>
-                                            <input type="radio" name="status" value="2" checked > <i></i> 是</label>
-                                        <label>
-                                            <input type="radio" name="status" value="1" > <i></i> 否</label>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">名称：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="name" class="form-control" placeholder="请输入<?php echo ($business_type_name); ?>名称">
+                                        <!--<span class="help-block m-b-none">说明文字</span>-->
                                     </div>
+                                </div>
 
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家地址：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家等级：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <?php if(is_array($business_level)): $i = 0; $__LIST__ = $business_level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label>
+                                                    <input type="radio" name="level" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算日期：</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" name="settlement_date" placeholder="请输入密码">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">联系人：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">电话：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="contact_mobile" placeholder="请输入联系人电话">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算方式：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <?php if(is_array($settlement_type)): $i = 0; $__LIST__ = $settlement_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label>
+                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款">
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="col-md-12">
+
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-1 control-label">商家描述：</label>
+                                    <div class="col-sm-11">
+                                        <textarea class="form-control" name="memo" placeholder="商家描述"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-1">
+                                        <button class="btn btn-primary" type="submit">提交</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">密码框：</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
-                                </div>
-                            </div>
-
-                        </div>
 
 
-
-                        <div class="col-md-6">
-                            <div class="hr-line-dashed"></div>
-                            <div class="form-group">
-                                <div class="col-sm-4 col-sm-offset-3">
-                                    <button class="btn btn-primary" type="submit">提交</button>
-                                </div>
-                            </div>
                         </div>
 
 
@@ -145,6 +191,8 @@
 
 <!-- 自定义js -->
 <script src="/tp_erp_shop/Public/admin/js/content.min.js?v=1.0.0"></script>
+
+<script src="/tp_erp_shop/Public/admin/js/plugins/toastr/toastr.min.js"></script>
 
 <script src="/tp_erp_shop/Public/admin/js/public.js"></script>
 
