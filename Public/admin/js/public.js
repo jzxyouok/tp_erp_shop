@@ -108,6 +108,8 @@ $(function () {
 
                 $('[type=submit]', form).removeClass("disabled");
 
+
+
             }, 'json');
         }
 
@@ -231,6 +233,8 @@ myObj.ajaxPost = function(target, param) {
 
 myObj.ajaxOperation = function ( data) {
 
+    var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+
     //  配置默认的提示框
     toastr.options = {
         "closeButton": true,
@@ -238,9 +242,9 @@ myObj.ajaxOperation = function ( data) {
         "progressBar": true,
         "positionClass": "toast-top-right",
         "onclick": null,
-        "showDuration": "400",
+        "showDuration": "300",
         "hideDuration": "1000",
-        "timeOut": data.timeout,
+        "timeOut": 3000,
         "extendedTimeOut": "1000",
         "showEasing": "swing",
         "hideEasing": "linear",
@@ -250,8 +254,21 @@ myObj.ajaxOperation = function ( data) {
 
     if( data.status == 1 ) {
         toastr.success( data.info);
+
+        setTimeout( function () {
+
+            if( index ) {
+                parent.layer.close(index); //再执行关闭
+            }
+
+            if( data.url !== '' ) {
+                window.location.href = data.url;
+            }
+
+        }, 3000);
     } else {
         toastr.error( data.info );
     }
+
 };
 

@@ -30,6 +30,14 @@ class BusinessController extends AdminController
     }
 
     /**
+     * index页面前置操作
+     */
+    protected function indexBefore()
+    {
+        $this->getConf();
+    }
+
+    /**
      * 返回 列表条件 等options
      * @param $options
      * @return mixed
@@ -40,8 +48,8 @@ class BusinessController extends AdminController
         
         return $options;
     }
-
-    private function addEditBefore()
+    
+    private function getConf()
     {
         $business_level = C('business_level');
 
@@ -49,11 +57,17 @@ class BusinessController extends AdminController
         
         $this->assign(compact('business_level', 'settlement_type'));
     }
+
     /**
      * 添加前置操作
      */
     protected function addBefore()
     {
-        $this->addEditBefore();
+        $this->getConf();
+    }
+
+    protected function editBefore()
+    {
+        $this->getConf();
     }
 }

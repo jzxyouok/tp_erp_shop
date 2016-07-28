@@ -6,7 +6,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>{$business_type_name}管理</h5>
+                    <h5>{$goods_type_name}商品管理</h5>
                     <!--<div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -29,11 +29,11 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-8 m-b-xs">
-                            <a href="javascript:void(0)" url="{:U('add', array('type'=>$business_type))}" rel="" title="添加{$business_type_name}" class="btn btn-sm btn-primary my-popup"> 添加{$business_type_name} </a>
+                            <a href="javascript:void(0)" url="{:U('add', array('type'=>$goods_type))}" rel="" title="添加{$goods_type_name}" class="btn btn-sm btn-primary my-popup"> 添加 {$goods_type_name} 商品 </a>
 
                             <a href="javascript:history.go(0)" class="btn btn-sm btn-primary"> 刷新 </a>
 
-                             <!--<a href="javascript:history.go(-1)" class="btn btn-sm btn-primary"> 返回上一步 </a>-->
+                            <!--<a href="javascript:history.go(-1)" class="btn btn-sm btn-primary"> 返回上一步 </a>-->
 
                             <input type="button" url="{:U('delete',array('Model'=>'UserOrganization','status'=>'-1'))}" class="btn btn-sm btn-primary ajax-post confirm" target-form="ids" value="删除">
 
@@ -42,7 +42,9 @@
                         <form action="{:U('index?'.$paramstr)}" method="get">
                             <div class="col-sm-3">
                                 <div class="input-group">
-                                    <input type="text" placeholder="请输{$business_type_name}名称" class="input-sm form-control" name="keywords" value="{$param['keywords']|default=''}"> <span class="input-group-btn">
+                                    <input type="hidden" name="type" value="{$goods_type}">
+
+                                    <input type="text" placeholder="请输{$goods_type_name}名称" class="input-sm form-control" name="keywords" value="{$param['keywords']|default=''}"> <span class="input-group-btn">
                                     <button type="submit" class="btn btn-sm btn-primary"> 搜索</button> </span>
                                 </div>
                             </div>
@@ -55,16 +57,18 @@
                             <thead>
                             <tr>
                                 <th></th>
+                                <th>编号</th>
                                 <th>名称</th>
-                                <th>等级</th>
-                                <th>结算方式</th>
-                                <th>结算日期</th>
-                                <th>期初应付/收款</th>
-                                <th>期初预付/收款</th>
-                                <th>联系人姓名</th>
-                                <th>联系人电话</th>
-                                <th>商家地址</th>
-                                <th>商家描述</th>
+                                <th>分类</th>
+                                <th>规格型号</th>
+                                <th>条形码</th>
+                                <th>仓库</th>
+                                <th>计量单位</th>
+                                <th>预警：最低库存-最高库存</th>
+                                <th>价格：采购价-零售价-批发价-VIP价格</th>
+                                <th>折扣1-折扣2(%)</th>
+                                <th>期初:数量-单位成本-总价</th>
+                                <th>描述</th>
                                 <th>创建时间</th>
                                 <th>更新时间</th>
                                 <th>操作</th>
@@ -76,37 +80,38 @@
                                     <td>
                                         <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" checked="" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
                                     </td>
+                                    <td>{$vo['id']}</td>
                                     <td>{$vo['name']}</td>
-                                    <td>{$business_level[$vo['level']]}</td>
-                                    <td>{$settlement_type[$vo['settlement_type']]}</td>
-                                    <td>{$vo['settlement_date']}</td>
-                                    <td>{$vo['st_receive_money']}</td>
-                                    <td>{$vo['st_period_receive_money']}</td>
-                                    <td>{$vo['contact_name']}</td>
-                                    <td>{$vo['contact_mobile']}</td>
-                                    <td>{$vo['address']}</td>
+                                    <td>{$goods_category[$vo['category']]}</td>
+                                    <td>{$vo['spec']}</td>
+                                    <td>{$vo['bar_code']}</td>
+                                    <td>{$goods_storage_house[$vo['storage_house']]}</td>
+                                    <td>{$unit_list[$vo['unit']]}</td>
+                                    <td>{$vo['min_inventory']}-{$vo['max_inventory']}</td>
+                                    <td>{$vo['purchase_price']}-{$vo['sale_price']}-{$vo['wholesale_price']}-{$vo['vip_price']}</td>
+                                    <td>{$vo['discount_rate_1']}-{$vo['discount_rate_2']}</td>
+                                    <td>{$vo['st_quantity']}-{$vo['st_unit_cost']}-{$vo['st_amount']}</td>
                                     <td>{$vo['memo']}</td>
                                     <td>{$vo['created_at']}</td>
                                     <td>{$vo['updated_at']}</td>
                                     <td>
+                                        <!--<button class="btn btn-default btn-circle" type="button"><i class="fa fa-check"></i>
+                                        </button>
+                                        <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-list"></i>
+                                        </button>
+                                        <button class="btn btn-info btn-circle" type="button"><i class="fa fa-check"></i>
+                                        </button>-->
+                                        <a href="javascript:void(0)" url="{:U('edit', array('type'=>$goods_type, 'id'=>$vo['id']))}" class="btn btn-success btn-circle my-popup"><i class="fa fa-link"></i>
+                                        </a>
+                                        <a href="{:U('delete', array('type'=>$goods_type, 'ids'=>$vo['id']))}" class="btn btn-warning btn-circle ajax-get confirm"><i class="fa fa-times"></i>
+                                        </a>
 
-                                            <!--<button class="btn btn-default btn-circle" type="button"><i class="fa fa-check"></i>
-                                            </button>
-                                            <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-list"></i>
-                                            </button>
-                                            <button class="btn btn-info btn-circle" type="button"><i class="fa fa-check"></i>
-                                            </button>-->
-                                            <a href="javascript:void(0)" url="{:U('edit', array('type'=>$business_type, 'id'=>$vo['id']))}" class="btn btn-success btn-circle my-popup"><i class="fa fa-link"></i>
-                                            </a>
-                                            <a href="{:U('delete', array('type'=>$business_type, 'ids'=>$vo['id']))}" class="btn btn-warning btn-circle ajax-get confirm"><i class="fa fa-times"></i>
-                                            </a>
-
-                                            <!--
-                                            <button class="btn btn-danger btn-circle" type="button"><i class="fa fa-heart"></i>
-                                            </button>
-                                            <button class="btn btn-danger btn-circle btn-outline" type="button"><i class="fa fa-heart"></i>
-                                            </button>
-                                            -->
+                                        <!--
+                                        <button class="btn btn-danger btn-circle" type="button"><i class="fa fa-heart"></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-circle btn-outline" type="button"><i class="fa fa-heart"></i>
+                                        </button>
+                                        -->
 
                                     </td>
                                 </tr>

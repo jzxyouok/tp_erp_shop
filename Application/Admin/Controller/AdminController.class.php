@@ -14,6 +14,8 @@ use Think\Model;
 class AdminController extends Controller
 {
 
+    const AJAX_IS_OPEN = true;
+
     protected $model;
 
     protected $model_name;
@@ -45,6 +47,11 @@ class AdminController extends Controller
      */
     public function index()
     {
+        //  判断是否有前置操作校验
+        if(method_exists($this,'indexBefore')) {
+            $this->indexBefore();
+        }
+
         $model = $this->model;
 
         $options = ['where'=>'', 'order'=>'', 'base'=>['deleted_at'=>['eq', 0]], 'field'=>true];
@@ -63,6 +70,9 @@ class AdminController extends Controller
 
         $this->assign( compact('_list') );
 
+        // 记录当前列表页的cookie
+        Cookie('__forward__',$_SERVER['REQUEST_URI']);
+
         $this->display();
     }
 
@@ -71,14 +81,20 @@ class AdminController extends Controller
      */
     public function add()
     {
+        $method = 'add';
+
+        $detail = array();
+
         //  判断是否有前置操作校验
         if(method_exists($this,'addBefore')) {
-            $this->addBefore();
+            $detail = $this->addBefore();
         }
 
         $method_name = '添加';
 
-        $this->assign( compact('method_name') );
+
+
+        $this->assign( compact('method_name', 'method', 'detail') );
 
         $this->display('edit');
     }
@@ -89,6 +105,8 @@ class AdminController extends Controller
     public function edit($id)
     {
 
+        $method = 'edit';
+
         $method_name = '编辑';
 
         //  判断是否有前置操作校验
@@ -98,9 +116,28 @@ class AdminController extends Controller
 
         $detail = $this->model->where( [$this->model->getPk() => $id] )->find();
 
-        $this->assign(compact('detail', 'method_name'));
+        $this->assign(compact('detail', 'method_name', 'method'));
 
         $this->display('edit');
+    }
+
+    /**
+     * 可访问 保存更新内容【添加|修改|软删除】
+     */
+    public function save()
+    {
+        $inputs = $this->model->create();
+
+        //  判断是否有前置操作校验
+        if(method_exists($this,'saveBefore')) {
+            $inputs = $this->saveBefore($inputs);
+        }
+        
+        if( $this->model->saveData($inputs) ) {
+            $this->success($this->model->getErrorMsg(), Cookie('__forward__'), self::AJAX_IS_OPEN);
+        }
+
+        $this->error($this->model->getErrorMsg(), '', self::AJAX_IS_OPEN);
     }
 
     /**
@@ -117,20 +154,12 @@ class AdminController extends Controller
 
         $where[$this->model->getPk()] = array('in', $ids);
 
-        $re = $this->update($this->model, $data, $where);
-    }
-
-    /**
-     * 可访问 保存更新内容【添加|修改|软删除】
-     */
-    public function save()
-    {
-        //  判断是否有前置操作校验
-        if(method_exists($this,'saveBefore')) {
-            $this->saveBefore();
+        if ( $this->update($this->model, $data, $where) !== false ) {
+            $this->success("删除操作成功", Cookie('__forward__'), self::AJAX_IS_OPEN);
         }
 
-        $this->error("操作失败");
+        $this->error("删除操作失败", '', self::AJAX_IS_OPEN);
+
     }
 
     /**
@@ -250,4 +279,5 @@ class AdminController extends Controller
 
         return $model->field($field)->select();
     }
+
 }

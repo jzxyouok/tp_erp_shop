@@ -25,7 +25,7 @@ class PublicController extends Controller
             if( $msg['status'] == 0 ) {
                 $this->error( $msg['info'], $msg['url'], false );
             }
-
+            
             $this->success( $msg['info'], $msg['url'], false );
             
             return;

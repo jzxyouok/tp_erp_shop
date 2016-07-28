@@ -51,8 +51,11 @@
             </div>
 
             <div class="ibox-content">
-                <form action="<?php echo U('save');?>" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+                <form action="<?php echo U('save', array('method'=>$method));?>" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+
+                    <input type="hidden" name="id" value="<?php echo getValue($detail, 'id');?>">
                     <input type="hidden" name="type" value="<?php echo ($business_type); ?>">
+
                     <div class="row">
 
                         <div class="col-md-12">
@@ -60,7 +63,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">名称：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" name="name" class="form-control" placeholder="请输入<?php echo ($business_type_name); ?>名称">
+                                        <input type="text" name="name" class="form-control" placeholder="请输入<?php echo ($business_type_name); ?>名称" value="<?php echo getValue($detail, 'name');?>">
                                         <!--<span class="help-block m-b-none">说明文字</span>-->
                                     </div>
                                 </div>
@@ -68,7 +71,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">商家地址：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址">
+                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址" value="<?php echo getValue($detail, 'address');?>">
                                     </div>
                                 </div>
 
@@ -76,8 +79,9 @@
                                     <label class="col-sm-2 control-label">商家等级：</label>
                                     <div class="col-sm-10">
                                         <div class="radio i-checks">
-                                            <?php if(is_array($business_level)): $i = 0; $__LIST__ = $business_level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label>
-                                                    <input type="radio" name="level" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                            <?php if(is_array($business_level)): $i = 0; $__LIST__ = $business_level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($key) == $detail['level']): ?><label><input type="radio" name="level" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;
+                                                <?php else: ?>
+                                                    <label><input type="radio" name="level" value="<?php echo ($key); ?>" > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -85,14 +89,14 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">结算日期：</label>
                                     <div class="col-sm-10">
-                                        <input type="date" class="form-control" name="settlement_date" placeholder="请输入密码">
+                                        <input type="date" class="form-control" name="settlement_date" placeholder="结算日期" value="<?php echo getValue($detail, 'settlement_date');?>">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">期初应付/收款：</label>
                                     <div class="col-sm-10">
-                                        <input type="number" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款">
+                                        <input type="text" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款" value="<?php echo getValue($detail, 'st_receive_money');?>">
                                     </div>
                                 </div>
 
@@ -103,14 +107,14 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">联系人：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名">
+                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名" value="<?php echo getValue($detail, 'contact_name');?>">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">电话：</label>
                                     <div class="col-sm-10">
-                                        <input type="number" class="form-control" name="contact_mobile" placeholder="请输入联系人电话">
+                                        <input type="text" class="form-control" name="contact_mobile" placeholder="请输入联系人电话" value="<?php echo getValue($detail, 'contact_mobile');?>">
                                     </div>
                                 </div>
 
@@ -118,22 +122,20 @@
                                     <label class="col-sm-2 control-label">结算方式：</label>
                                     <div class="col-sm-10">
                                         <div class="radio i-checks">
-                                            <?php if(is_array($settlement_type)): $i = 0; $__LIST__ = $settlement_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label>
-                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                            <?php if(is_array($settlement_type)): $i = 0; $__LIST__ = $settlement_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($key) == $detail['settlement_type']): ?><label>
+                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;
+                                                <?php else: ?>
+                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                         </div>
                                     </div>
                                 </div>
 
-
-
-
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">期初应付/收款：</label>
                                     <div class="col-sm-10">
-                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款">
+                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款" value="<?php echo getValue($detail, 'st_period_receive_money');?>">
                                     </div>
                                 </div>
-
 
                             </div>
 
@@ -145,7 +147,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-1 control-label">商家描述：</label>
                                     <div class="col-sm-11">
-                                        <textarea class="form-control" name="memo" placeholder="商家描述"></textarea>
+                                        <textarea class="form-control" name="memo" placeholder="商家描述"><?php echo getValue($detail, 'memo');?></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -154,10 +156,7 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
 
                     </div>
                 </form>
@@ -199,6 +198,14 @@
 
     <!-- iCheck -->
     <script src="/tp_erp_shop/Public/admin/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        })
+    </script>
 
 
 </body>

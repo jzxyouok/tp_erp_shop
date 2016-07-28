@@ -39,7 +39,7 @@ return array(
     'DATA_CACHE_SUBDIR'     =>  false,          // 使用子目录缓存 (自动根据缓存标识的哈希创建子目录)
     'DATA_PATH_LEVEL'       =>  1,              // 子目录缓存级别
 
-
+    
     /* 开启表单令牌 */
     'TOKEN_ON'      =>    true,  // 是否开启令牌验证 默认关闭
     'TOKEN_NAME'    =>    '__hash__',    // 令牌验证的表单隐藏字段名称，默认为__hash__

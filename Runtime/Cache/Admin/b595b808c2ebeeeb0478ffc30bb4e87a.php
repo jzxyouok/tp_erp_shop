@@ -68,7 +68,9 @@
                                 </li>
                                 <li><a class="J_menuItem" href="<?php echo U('Admin/Business/index/type/2');?>">运营商管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="form_avatar.html">商品管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Goods/index/type/1');?>">成品-商品管理</a>
+                                </li>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Goods/index/type/2');?>">半成品-商品管理</a>
                                 </li>
                                 <li><a class="J_menuItem" href="form_avatar.html">账户管理</a>
                                 </li>
