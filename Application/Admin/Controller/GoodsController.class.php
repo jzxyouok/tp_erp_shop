@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
+ * 商品管理
  * User: fy
  * Date: 16-7-25
  * Time: 下午10:50

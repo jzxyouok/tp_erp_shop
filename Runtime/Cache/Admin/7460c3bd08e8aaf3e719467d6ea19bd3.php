@@ -44,23 +44,6 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5><?php echo ($goods_type_name); ?>商品管理</h5>
-                    <!--<div class="ibox-tools">
-                        <a class="collapse-link">
-                            <i class="fa fa-chevron-up"></i>
-                        </a>
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="table_basic.html#">
-                            <i class="fa fa-wrench"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-user">
-                            <li><a href="table_basic.html#">选项1</a>
-                            </li>
-                            <li><a href="table_basic.html#">选项2</a>
-                            </li>
-                        </ul>
-                        <a class="close-link">
-                            <i class="fa fa-times"></i>
-                        </a>
-                    </div>-->
                 </div>
 
                 <div class="ibox-content">
@@ -69,12 +52,6 @@
                             <a href="javascript:void(0)" url="<?php echo U('add', array('type'=>$goods_type));?>" rel="" title="添加<?php echo ($goods_type_name); ?>" class="btn btn-sm btn-primary my-popup"> 添加 <?php echo ($goods_type_name); ?> 商品 </a>
 
                             <a href="javascript:history.go(0)" class="btn btn-sm btn-primary"> 刷新 </a>
-
-                            <!--<a href="javascript:history.go(-1)" class="btn btn-sm btn-primary"> 返回上一步 </a>-->
-
-                            <input type="button" url="<?php echo U('delete',array('Model'=>'UserOrganization','status'=>'-1'));?>" class="btn btn-sm btn-primary ajax-post confirm" target-form="ids" value="删除">
-
-                            <a href="<?php echo U('index?'.$paramstr,array('parent_id'=>0,'type'=>2));?>" class="btn btn-sm btn-primary">单独部门</a>
                         </div>
                         <form action="<?php echo U('index?'.$paramstr);?>" method="get">
                             <div class="col-sm-3">
@@ -131,23 +108,11 @@
                                     <td><?php echo ($vo['created_at']); ?></td>
                                     <td><?php echo ($vo['updated_at']); ?></td>
                                     <td>
-                                        <!--<button class="btn btn-default btn-circle" type="button"><i class="fa fa-check"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-list"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-circle" type="button"><i class="fa fa-check"></i>
-                                        </button>-->
+
                                         <a href="javascript:void(0)" url="<?php echo U('edit', array('type'=>$goods_type, 'id'=>$vo['id']));?>" class="btn btn-success btn-circle my-popup"><i class="fa fa-link"></i>
                                         </a>
                                         <a href="<?php echo U('delete', array('type'=>$goods_type, 'ids'=>$vo['id']));?>" class="btn btn-warning btn-circle ajax-get confirm"><i class="fa fa-times"></i>
                                         </a>
-
-                                        <!--
-                                        <button class="btn btn-danger btn-circle" type="button"><i class="fa fa-heart"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-circle btn-outline" type="button"><i class="fa fa-heart"></i>
-                                        </button>
-                                        -->
 
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>

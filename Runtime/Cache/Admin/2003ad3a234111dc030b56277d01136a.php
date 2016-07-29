@@ -42,7 +42,7 @@
     <div class="col-sm-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5><?php echo ($business_type_name); ?>-<?php echo ($method_name); ?></h5>
+                <h5>账户-<?php echo ($method_name); ?></h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
@@ -54,49 +54,33 @@
                 <form action="<?php echo U('save', array('method'=>$method));?>" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
 
                     <input type="hidden" name="id" value="<?php echo getValue($detail, 'id');?>">
-                    <input type="hidden" name="type" value="<?php echo ($business_type); ?>">
 
                     <div class="row">
 
                         <div class="col-md-12">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">名称：</label>
+                                    <label class="col-sm-2 control-label">账户名称：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" name="name" class="form-control" placeholder="请输入<?php echo ($business_type_name); ?>名称" value="<?php echo getValue($detail, 'name');?>">
-                                        <!--<span class="help-block m-b-none">说明文字</span>-->
+                                        <input type="text" name="name" class="form-control" placeholder="请输入账户名称" value="<?php echo getValue($detail, 'name');?>">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">商家地址：</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址" value="<?php echo getValue($detail, 'address');?>">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label">商家等级：</label>
+                                    <label class="col-sm-2 control-label">账户类型：</label>
                                     <div class="col-sm-10">
                                         <div class="radio i-checks">
-                                            <?php if(is_array($business_level)): $i = 0; $__LIST__ = $business_level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($key) == $detail['level']): ?><label><input type="radio" name="level" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;
-                                                <?php else: ?>
-                                                    <label><input type="radio" name="level" value="<?php echo ($key); ?>" > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                                            <?php if(is_array($account_type)): $i = 0; $__LIST__ = $account_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($key) == $detail['type']): ?><label><input type="radio" name="type" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;
+                                                    <?php else: ?>
+                                                    <label><input type="radio" name="type" value="<?php echo ($key); ?>" > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">结算日期：</label>
+                                    <label class="col-sm-2 control-label">建帐日期：</label>
                                     <div class="col-sm-10">
-                                        <input type="date" class="form-control" name="settlement_date" placeholder="结算日期" value="<?php echo getValue($detail, 'settlement_date');?>">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款" value="<?php echo getValue($detail, 'st_receive_money');?>">
+                                        <input type="date" class="form-control" name="amount_date" placeholder="建帐日期" value="<?php echo getValue($detail, 'amount_date');?>">
                                     </div>
                                 </div>
 
@@ -105,51 +89,26 @@
                             <div class="col-md-6">
 
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">联系人：</label>
+                                    <label class="col-sm-2 control-label">账户号：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名" value="<?php echo getValue($detail, 'contact_name');?>">
+                                        <input type="text" class="form-control" name="account_number" placeholder="请输入账户号" value="<?php echo getValue($detail, 'account_number');?>">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">电话：</label>
+                                    <label class="col-sm-2 control-label">账户余额：</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="contact_mobile" placeholder="请输入联系人电话" value="<?php echo getValue($detail, 'contact_mobile');?>">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label">结算方式：</label>
-                                    <div class="col-sm-10">
-                                        <div class="radio i-checks">
-                                            <?php if(is_array($settlement_type)): $i = 0; $__LIST__ = $settlement_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($key) == $detail['settlement_type']): ?><label>
-                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" checked > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;
-                                                <?php else: ?>
-                                                    <input type="radio" name="settlement_type" value="<?php echo ($key); ?>" > <i></i><?php echo ($vo); ?> </label>&nbsp;&nbsp;<?php endif; endforeach; endif; else: echo "" ;endif; ?>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
-                                    <div class="col-sm-10">
-                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款" value="<?php echo getValue($detail, 'st_period_receive_money');?>">
+                                        <input type="text" class="form-control" name="amount" placeholder="请输入账户余额" value="<?php echo getValue($detail, 'amount');?>">
                                     </div>
                                 </div>
 
                             </div>
 
 
-
                             <div class="col-md-12">
 
                                 <div class="hr-line-dashed"></div>
-                                <div class="form-group">
-                                    <label class="col-sm-1 control-label">商家描述：</label>
-                                    <div class="col-sm-11">
-                                        <textarea class="form-control" name="memo" placeholder="商家描述"><?php echo getValue($detail, 'memo');?></textarea>
-                                    </div>
-                                </div>
+
                                 <div class="form-group">
                                     <div class="col-sm-4 col-sm-offset-1">
                                         <button class="btn btn-primary" type="submit">提交</button>

@@ -72,7 +72,7 @@
                                 </li>
                                 <li><a class="J_menuItem" href="<?php echo U('Admin/Goods/index/type/2');?>">半成品-商品管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="form_avatar.html">账户管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Account/index');?>">账户管理</a>
                                 </li>
                             </ul>
                         </li>
@@ -95,6 +95,21 @@
                         </li>
                     </ul>
                 </li>
+
+                <li>
+                    <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">购货 </span><span class="fa arrow"></span>
+                        <!--<span class="label label-warning pull-right">16</span>-->
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a class="J_menuItem" href="">购货单</a>
+                        </li>
+
+                        <li><a class="J_menuItem" href="mail_detail.html">购货退货单</a>
+                        </li>
+                    </ul>
+                </li>
+
+
             </ul>
         </div>
     </nav>

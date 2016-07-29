@@ -11,7 +11,7 @@ namespace Admin\Controller;
 use Think\Controller;
 use Think\Model;
 
-class AdminController extends Controller
+abstract class AdminController extends Controller
 {
 
     const AJAX_IS_OPEN = true;

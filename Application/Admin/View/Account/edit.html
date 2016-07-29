@@ -1,0 +1,110 @@
+<extend name="Public:base" />
+
+<block name="body">
+
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>账户-{$method_name}</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ibox-content">
+                <form action="{:U('save', array('method'=>$method))}" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+
+                    <input type="hidden" name="id" value="{:getValue($detail, 'id')}">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">账户名称：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="name" class="form-control" placeholder="请输入账户名称" value="{:getValue($detail, 'name')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">账户类型：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <volist name="account_type" id="vo">
+                                                <eq name="key" value="$detail['type']">
+                                                    <label><input type="radio" name="type" value="{$key}" checked > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                    <else/>
+                                                    <label><input type="radio" name="type" value="{$key}" > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                </eq>
+                                            </volist>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">建帐日期：</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" name="amount_date" placeholder="建帐日期" value="{:getValue($detail, 'amount_date')}">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">账户号：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="account_number" placeholder="请输入账户号" value="{:getValue($detail, 'account_number')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">账户余额：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="amount" placeholder="请输入账户余额" value="{:getValue($detail, 'amount')}">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-12">
+
+                                <div class="hr-line-dashed"></div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-1">
+                                        <button class="btn btn-primary" type="submit">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="style">
+    <link href="__ADMIN__/css/plugins/iCheck/custom.css" rel="stylesheet">
+</block>
+
+<block name="script">
+    <!-- iCheck -->
+    <script src="__ADMIN__/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        })
+    </script>
+</block>
