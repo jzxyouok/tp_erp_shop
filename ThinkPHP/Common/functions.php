@@ -363,7 +363,7 @@ function I($name,$default='',$filter=null,$datas=null) {
             }elseif(is_int($filters)){
                 $filters    =   array($filters);
             }
-            
+
             if(is_array($filters)){
                 foreach($filters as $filter){
                     if(function_exists($filter)) {

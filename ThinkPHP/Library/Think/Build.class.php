@@ -18,7 +18,7 @@ class Build {
 namespace [MODULE]\Controller;
 use Think\Controller;
 class [CONTROLLER]Controller extends Controller {
-    public function index(){
+    Public function index(){
         $this->show(\'<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>\',\'utf-8\');
     }
 }';
@@ -151,7 +151,7 @@ class [MODEL]Model extends Model {
         // 目录安全写入（默认开启）
         defined('BUILD_DIR_SECURE')  or define('BUILD_DIR_SECURE',    true);
         if(BUILD_DIR_SECURE) {
-            defined('DIR_SECURE_FILENAME')  or define('DIR_SECURE_FILENAME',    'index.html');
+            defined('DIR_SECURE_FILENAME')  or define('DIR_SECURE_FILENAME',    'index.html.bak');
             defined('DIR_SECURE_CONTENT')   or define('DIR_SECURE_CONTENT',     ' ');
             // 自动写入目录安全文件
             $content = DIR_SECURE_CONTENT;

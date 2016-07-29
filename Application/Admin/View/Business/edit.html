@@ -1,0 +1,155 @@
+<extend name="Public:base" />
+
+<block name="body">
+
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>{$business_type_name}-{$method_name}</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ibox-content">
+                <form action="{:U('save', array('method'=>$method))}" method="post" class="form-horizontal m-t ajax-form" id="commentForm" >
+
+                    <input type="hidden" name="id" value="{:getValue($detail, 'id')}">
+                    <input type="hidden" name="type" value="{$business_type}">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">名称：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="name" class="form-control" placeholder="请输入{$business_type_name}名称" value="{:getValue($detail, 'name')}">
+                                        <!--<span class="help-block m-b-none">说明文字</span>-->
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家地址：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="address" placeholder="请输入商家地址" value="{:getValue($detail, 'address')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">商家等级：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <volist name="business_level" id="vo">
+                                                <eq name="key" value="$detail['level']">
+                                                    <label><input type="radio" name="level" value="{$key}" checked > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                <else/>
+                                                    <label><input type="radio" name="level" value="{$key}" > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                </eq>
+                                            </volist>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算日期：</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" name="settlement_date" placeholder="结算日期" value="{:getValue($detail, 'settlement_date')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="st_receive_money" placeholder="供应商-期初应付款 客户-期初应收款" value="{:getValue($detail, 'st_receive_money')}">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">联系人：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="contact_name" placeholder="请输入联系人姓名" value="{:getValue($detail, 'contact_name')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">电话：</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="contact_mobile" placeholder="请输入联系人电话" value="{:getValue($detail, 'contact_mobile')}">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">结算方式：</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio i-checks">
+                                            <volist name="settlement_type" id="vo">
+                                                <eq name="key" value="$detail['settlement_type']">
+                                                <label>
+                                                    <input type="radio" name="settlement_type" value="{$key}" checked > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                <else/>
+                                                    <input type="radio" name="settlement_type" value="{$key}" > <i></i>{$vo} </label>&nbsp;&nbsp;
+                                                </eq>
+                                            </volist>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">期初应付/收款：</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" name="st_period_receive_money" placeholder="供应商-期初预付款 客户-期初预收款" value="{:getValue($detail, 'st_period_receive_money')}">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-md-12">
+
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-1 control-label">商家描述：</label>
+                                    <div class="col-sm-11">
+                                        <textarea class="form-control" name="memo" placeholder="商家描述">{:getValue($detail, 'memo')}</textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-1">
+                                        <button class="btn btn-primary" type="submit">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="style">
+    <link href="__ADMIN__/css/plugins/iCheck/custom.css" rel="stylesheet">
+</block>
+
+<block name="script">
+    <!-- iCheck -->
+    <script src="__ADMIN__/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        })
+    </script>
+</block>

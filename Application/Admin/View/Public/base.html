@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>H+ 后台主题UI框架 - 首页示例二</title>
+    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
+    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+
+    <link href="__ADMIN__/css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="__ADMIN__/css/font-awesome.min.css?v=4.3.0" rel="stylesheet">
+
+
+    <link href="__ADMIN__/css/animate.min.css" rel="stylesheet">
+    <link href="__ADMIN__/css/style.min.css?v=3.2.0" rel="stylesheet">
+
+    <!--提示框-->
+    <link href="__ADMIN__/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <style>
+        .col-sm-12,.col-sm-11,.col-sm-10,.col-sm-9,.col-sm-8,.col-sm-7,.col-sm-6,.col-sm-5,.col-sm-4,.col-sm-3,.col-sm-2,.col-sm-1{ padding-left: 5px; padding-right: 5px;}
+
+        .col-md-12,.col-md-11,.col-md-10,.col-md-9,.col-md-8,.col-md-7,.col-md-6,.col-md-5,.col-md-4,.col-md-3,.col-md-2,.col-md-1{ padding-left: 15px; padding-right: 15px;}
+    </style>
+    <block name="style">
+
+    </block>
+
+    <!-- 全局js -->
+    <script src="__ADMIN__/js/jquery.min.js"></script>
+    <script src="__ADMIN__/js/bootstrap.min.js?v=3.4.0"></script>
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+    <block name="body">
+
+    </block>
+</div>
+
+<script type="text/javascript">
+    (function(){
+        var ThinkPHP = window.Think = {
+            "ROOT"   : "__ROOT__", //当前网站地址
+            "APP"    : "__APP__", //当前项目地址
+            "PUBLIC" : "__PUBLIC__", //项目公共目录地址
+            "ADMIN"  : "__ADMIN__",  //后台资源目录
+            "DEEP"   : "{:C('URL_PATHINFO_DEPR')}", //PATHINFO 分割符
+            "MODEL"  : ["{:C('URL_MODEL')}", "{:C('URL_CASE_INSENSITIVE')}", "{:C('URL_HTML_SUFFIX')}"],
+            "VAR"    : ["{:C('VAR_MODULE')}", "{:C('VAR_CONTROLLER')}", "{:C('VAR_ACTION')}"]
+        };
+    })();
+    var _ROOT_ = "__ROOT__";
+    var _ADDONS_ = "__ADDONS__";
+</script>
+
+<!-- jQuery UI -->
+<script src="__ADMIN__/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+<script src="__ADMIN__/js/plugins/layer/layer.min.js"></script>
+
+<!-- 自定义js -->
+<script src="__ADMIN__/js/content.min.js?v=1.0.0"></script>
+
+<script src="__ADMIN__/js/plugins/toastr/toastr.min.js"></script>
+
+<script src="__ADMIN__/js/public.js"></script>
+
+<block name="script">
+
+</block>
+
+</body>
+
+</html>
