@@ -9,7 +9,7 @@
 namespace Admin\Controller;
 
 
-class BusinessController extends AdminController
+class BusinessController extends CurdController
 {
 
     protected $model_name = 'Business';

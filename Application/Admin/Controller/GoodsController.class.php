@@ -9,7 +9,7 @@
 namespace Admin\Controller;
 
 
-class GoodsController extends AdminController
+class GoodsController extends CurdController
 {
 
     protected $model_name = 'Goods';

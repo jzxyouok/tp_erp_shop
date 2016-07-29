@@ -1,0 +1,38 @@
+<?php if($disabled): ?>
+    <input type="text" class="form-control" value="{$business_name}" disabled="disabled" >
+    <input type="hidden" name="{$input_name}" value="{$bus_id}">
+<?php else: ?>
+    <div class="input-group">
+        <input type="text" class="form-control" id="get_{$static}" value="{$business_name}" >
+        <input type="hidden" name="{$input_name}" value="{$bus_id}">
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+            </ul>
+        </div>
+    </div>
+
+    <eq name="static" value="1">
+        <script src="__ADMIN__/js/plugins/suggest/bootstrap-suggest.min.js"></script>
+    </eq>
+    <script>
+        $(function(){
+            var testBsSuggest = $("#get_{$static}").bsSuggest({
+                url: "{:U('Admin/Ajax/getBusiness', array('type'=>2))}",
+                idField: "bus_id",
+                keyField: "name"
+            }).on('onDataRequestSuccess', function (e, result) {
+                // console.log('onDataRequestSuccess: ', result);
+            }).on('onSetSelectValue', function (e, keyword) {
+                // console.log('onSetSelectValue: ', keyword);
+                $("input[name='{$input_name}']").val(keyword.id);
+            }).on('onUnsetSelectValue', function (e) {
+                // console.log("onUnsetSelectValue");
+            });
+        });
+    </script>
+<?php endif; ?>
+
+    

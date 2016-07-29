@@ -1,0 +1,2831 @@
+[ 2016-07-29T14:09:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008772s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+
+[ 2016-07-29T14:09:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006834s ]
+
+[ 2016-07-29T14:09:13+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SELECT id as uid,`nickname`,`email`,`password`,`mobile`,`deleted_at` FROM `admin_user` WHERE `email` = 'guiguoershao@163.com' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-07-29T14:09:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002217s ]
+
+[ 2016-07-29T14:09:17+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2016-07-29T14:09:18+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T14:09:20+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Business/index/type/1.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `business` WHERE `deleted_at` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`type`,`level`,`settlement_type`,`settlement_date`,`st_receive_money`,`st_period_receive_money`,`contact_name`,`contact_mobile`,`address`,`memo`,`created_at`,`updated_at`,`deleted_at` FROM `business` WHERE `deleted_at` = 0 AND `type` = 1 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/bdc580dd6f251141610d63d3d86c0e3e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2016-07-29T14:09:22+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Business/index/type/2.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `business` WHERE `deleted_at` = 0 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`type`,`level`,`settlement_type`,`settlement_date`,`st_receive_money`,`st_period_receive_money`,`contact_name`,`contact_mobile`,`address`,`memo`,`created_at`,`updated_at`,`deleted_at` FROM `business` WHERE `deleted_at` = 0 AND `type` = 2 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/bdc580dd6f251141610d63d3d86c0e3e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-07-29T14:09:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Goods/index/type/1.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `deleted_at` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name`,`type`,`category`,`spec`,`bar_code`,`storage_house`,`min_inventory`,`max_inventory`,`unit`,`purchase_price`,`sale_price`,`wholesale_price`,`vip_price`,`discount_rate_1`,`discount_rate_2`,`memo`,`is_alarm`,`st_quantity`,`st_unit_cost`,`st_amount`,`created_at`,`deleted_at`,`updated_at` FROM `goods` WHERE `deleted_at` = 0 AND `type` = 1 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2016-07-29T14:09:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Goods/index/type/2.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `deleted_at` = 0 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`type`,`category`,`spec`,`bar_code`,`storage_house`,`min_inventory`,`max_inventory`,`unit`,`purchase_price`,`sale_price`,`wholesale_price`,`vip_price`,`discount_rate_1`,`discount_rate_2`,`memo`,`is_alarm`,`st_quantity`,`st_unit_cost`,`st_amount`,`created_at`,`deleted_at`,`updated_at` FROM `goods` WHERE `deleted_at` = 0 AND `type` = 2 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-07-29T14:09:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Account/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `account` WHERE `deleted_at` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`account_number`,`type`,`amount`,`amount_date`,`created_at`,`updated_at`,`deleted_at` FROM `account` WHERE `deleted_at` = 0 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: business_type /var/www/tp_erp_shop/Runtime/Cache/Admin/c4921982ccba1d7effaada457f8c4abd.php 第 52 行.
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/c4921982ccba1d7effaada457f8c4abd.php 第 59 行.
+NOTIC: [8] Undefined variable: business_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/c4921982ccba1d7effaada457f8c4abd.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003568s ]
+
+[ 2016-07-29T14:36:44+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-07-29T14:36:44+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2016-07-29T14:36:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0022s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T14:36:48+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Caigou/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载控制器:Caigou
+
+[ 2016-07-29T14:37:38+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-07-29T14:37:39+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-07-29T14:37:40+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T14:37:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2016-07-29T14:37:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2016-07-29T14:39:10+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 59 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2016-07-29T14:39:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005050s ]
+
+[ 2016-07-29T14:39:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-07-29T14:39:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T14:39:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 52 行.
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 59 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2016-07-29T14:39:47+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+ERR: 非法操作:add
+
+[ 2016-07-29T14:41:52+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-29T14:42:10+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 53 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2016-07-29T14:42:33+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2016-07-29T14:43:02+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-07-29T14:43:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2016-07-29T14:43:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2016-07-29T14:45:08+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2016-07-29T14:45:30+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 54 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 61 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2016-07-29T14:45:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 53 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 60 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-07-29T14:47:02+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 53 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 60 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2016-07-29T14:48:32+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 53 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 59 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-07-29T14:49:28+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-07-29T14:51:43+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2016-07-29T14:51:59+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2016-07-29T14:52:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2016-07-29T14:52:41+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2016-07-29T14:53:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 41 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 46 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 55 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 62 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-07-29T14:54:09+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 43 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 47 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-07-29T14:54:14+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Business/index/type/1.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `business` WHERE `deleted_at` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`type`,`level`,`settlement_type`,`settlement_date`,`st_receive_money`,`st_period_receive_money`,`contact_name`,`contact_mobile`,`address`,`memo`,`created_at`,`updated_at`,`deleted_at` FROM `business` WHERE `deleted_at` = 0 AND `type` = 1 ORDER BY id desc LIMIT 0,30   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: paramstr /var/www/tp_erp_shop/Runtime/Cache/Admin/bdc580dd6f251141610d63d3d86c0e3e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-07-29T14:56:35+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 43 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2016-07-29T14:56:53+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 44 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-07-29T14:57:15+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001171s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 45 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-07-29T14:58:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 49 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-07-29T14:58:18+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 49 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2016-07-29T14:58:29+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 49 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2016-07-29T14:58:58+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 49 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2016-07-29T14:59:06+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 49 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 56 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 63 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 65 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2016-07-29T15:00:08+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: goods_type /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 64 行.
+NOTIC: [8] Undefined variable: goods_type_name /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 66 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2016-07-29T15:01:44+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 66 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-07-29T15:01:56+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 66 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2016-07-29T15:02:22+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 57 行.
+NOTIC: [8] Undefined variable: detail /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 66 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2016-07-29T15:07:12+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004416s ]
+
+[ 2016-07-29T15:07:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2016-07-29T15:08:28+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2016-07-29T15:08:39+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2016-07-29T15:08:51+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-07-29T15:09:14+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-29T15:09:58+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-07-29T15:10:06+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2016-07-29T15:10:45+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-07-29T15:11:40+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-07-29T15:12:51+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2016-07-29T16:02:18+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0010s ]
+
+[ 2016-07-29T16:02:18+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2016-07-29T16:02:19+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2016-07-29T16:02:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0008s ]
+SQL: SELECT id as uid,`nickname`,`email`,`password`,`mobile`,`deleted_at` FROM `admin_user` WHERE `email` = 'guiguoershao@163.com' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-07-29T16:02:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-07-29T16:02:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2016-07-29T16:02:28+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T16:02:30+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+
+[ 2016-07-29T16:04:20+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004890s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2016-07-29T16:04:21+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:04:22+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:04:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:04:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:04:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:04:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:22+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002247s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-29T16:05:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:26+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:05:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004381s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2016-07-29T16:05:28+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:12:22+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007713s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-07-29T16:12:23+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-07-29T16:12:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-07-29T16:12:24+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+
+[ 2016-07-29T16:12:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-07-29T16:13:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002299s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-07-29T16:13:03+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:13:04+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:13:05+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:13:05+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:14:51+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+ERR: 非法操作:getUserList
+
+[ 2016-07-29T16:15:09+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006274s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2016-07-29T16:15:10+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0006s ]
+
+[ 2016-07-29T16:15:11+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2016-07-29T16:15:12+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2016-07-29T16:15:12+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+ERR: 非法操作:skin-config
+
+[ 2016-07-29T16:15:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006224s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2016-07-29T16:15:16+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0003s ]
+
+[ 2016-07-29T16:15:52+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004931s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-07-29T16:15:52+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0001s ]
+
+[ 2016-07-29T16:15:56+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002593s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-07-29T16:15:57+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0001s ]
+
+[ 2016-07-29T16:16:00+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001929s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-07-29T16:16:01+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0001s ]
+
+[ 2016-07-29T16:16:35+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003532s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2016-07-29T16:16:36+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0003s ]
+
+[ 2016-07-29T16:28:42+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000702s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011852s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-07-29T16:28:46+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0007s ]
+
+[ 2016-07-29T16:31:25+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009079s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000185s ]
+
+[ 2016-07-29T16:31:27+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0002s ]
+
+[ 2016-07-29T16:31:47+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/InvPu/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `account_info` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `invoice_info` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: method /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005297s ]
+NOTIC: [8] Undefined variable: business_name /var/www/tp_erp_shop/Runtime/Cache/Admin/3c480198d18c46671d7af03b85b9eb3a.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: _list /var/www/tp_erp_shop/Runtime/Cache/Admin/e1773ad9d664d7aaedef614e82500d7c.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-07-29T16:31:49+08:00 ] 127.0.0.1 /tp_erp_shop/Admin/Ajax/getBusiness/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`contact_name` FROM `business` WHERE `type` = 2  [ RunTime:0.0002s ]
+

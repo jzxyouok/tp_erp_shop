@@ -12,5 +12,22 @@ use Think\Controller;
 
 class AjaxController extends Controller
 {
-    
+    public function _initialize()
+    {
+        if( !IS_AJAX ) {
+            return false;
+        }
+    }
+
+    public function getBusiness($type)
+    {
+        $list = D('Business')->getBusiness($type, 'id, name, contact_name');
+
+        $return['message'] = "";
+        $return['value'] = $list;
+        $return['code'] = 200;
+        $return['redirect'] = "";
+
+        $this->ajaxReturn($return);
+    }
 }

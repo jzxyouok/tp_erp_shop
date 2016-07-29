@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
@@ -17,10 +17,10 @@
     </script>
     <![endif]-->
 
-    <link href="__ADMIN__/css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
-    <link href="__ADMIN__/css/font-awesome.min.css?v=4.3.0" rel="stylesheet">
-    <link href="__ADMIN__/css/animate.min.css" rel="stylesheet">
-    <link href="__ADMIN__/css/style.min.css?v=3.2.0" rel="stylesheet">
+    <link href="/tp_erp_shop/Public/admin/css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="/tp_erp_shop/Public/admin/css/font-awesome.min.css?v=4.3.0" rel="stylesheet">
+    <link href="/tp_erp_shop/Public/admin/css/animate.min.css" rel="stylesheet">
+    <link href="/tp_erp_shop/Public/admin/css/style.min.css?v=3.2.0" rel="stylesheet">
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg">
@@ -33,7 +33,7 @@
             <ul class="nav" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element">
-                        <span><img alt="image" class="img-circle" src="__ADMIN__/img/profile_small.jpg" /></span>
+                        <span><img alt="image" class="img-circle" src="/tp_erp_shop/Public/admin/img/profile_small.jpg" /></span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
                                <span class="block m-t-xs"><strong class="font-bold">Beaut-zihan</strong></span>
@@ -50,7 +50,7 @@
                             <li><a class="J_menuItem" href="mailbox.html">信箱</a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="{:U('Public/logout')}">安全退出</a>
+                            <li><a href="<?php echo U('Public/logout');?>">安全退出</a>
                             </li>
                         </ul>
                     </div>
@@ -64,15 +64,15 @@
                         <li>
                             <a href="#">基本资料 <span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level">
-                                <li><a class="J_menuItem" href="{:U('Admin/Business/index/type/1')}">客户管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Business/index/type/1');?>">客户管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="{:U('Admin/Business/index/type/2')}">供应商管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Business/index/type/2');?>">供应商管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="{:U('Admin/Goods/index/type/1')}">成品-商品管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Goods/index/type/1');?>">成品-商品管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="{:U('Admin/Goods/index/type/2')}">半成品-商品管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Goods/index/type/2');?>">半成品-商品管理</a>
                                 </li>
-                                <li><a class="J_menuItem" href="{:U('Admin/Account/index')}">账户管理</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Admin/Account/index');?>">账户管理</a>
                                 </li>
                             </ul>
                         </li>
@@ -101,7 +101,7 @@
                         <!--<span class="label label-warning pull-right">16</span>-->
                     </a>
                     <ul class="nav nav-second-level">
-                        <li><a class="J_menuItem" href="{:U('Admin/InvPu/index')}">新建购货单</a>
+                        <li><a class="J_menuItem" href="<?php echo U('Admin/InvPu/index');?>">新建购货单</a>
                         </li>
 
                         <li><a class="J_menuItem" href="mail_detail.html">新建购货退货单</a>
@@ -134,7 +134,7 @@
                             <li class="m-t-xs">
                                 <div class="dropdown-messages-box">
                                     <a href="profile.html" class="pull-left">
-                                        <img alt="image" class="img-circle" src="__ADMIN__/img/a7.jpg">
+                                        <img alt="image" class="img-circle" src="/tp_erp_shop/Public/admin/img/a7.jpg">
                                     </a>
                                     <div class="media-body">
                                         <small class="pull-right">46小时前</small>
@@ -148,7 +148,7 @@
                             <li>
                                 <div class="dropdown-messages-box">
                                     <a href="profile.html" class="pull-left">
-                                        <img alt="image" class="img-circle" src="__ADMIN__/img/a4.jpg">
+                                        <img alt="image" class="img-circle" src="/tp_erp_shop/Public/admin/img/a4.jpg">
                                     </a>
                                     <div class="media-body ">
                                         <small class="pull-right text-navy">25小时前</small>
@@ -217,7 +217,7 @@
             </button>
             <nav class="page-tabs J_menuTabs">
                 <div class="page-tabs-content">
-                    <a href="javascript:void(0)" class="active J_menuTab" data-id="{:U('Index/main')}">首页</a>
+                    <a href="javascript:void(0)" class="active J_menuTab" data-id="<?php echo U('Index/main');?>">首页</a>
                 </div>
             </nav>
             <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
@@ -239,7 +239,7 @@
             <a href="login.html" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="{:U('Index/main')}" frameborder="0" data-id="{:U('Index/main')}" seamless></iframe>
+            <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="<?php echo U('Index/main');?>" frameborder="0" data-id="<?php echo U('Index/main');?>" seamless></iframe>
         </div>
         <div class="footer">
             <div class="pull-right">&copy; 2014-2015 <a href="http://www.zi-han.net/" target="_blank">zihan's blog</a>
@@ -283,7 +283,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a1.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a1.jpg">
 
                                     <div class="m-t-xs">
                                         <i class="fa fa-star text-warning"></i>
@@ -301,7 +301,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a2.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a2.jpg">
                                 </div>
                                 <div class="media-body">
                                     HCY48之音乐大魔王会员专属皮肤已上线，快来一键换装拥有他，宣告你对华晨宇的爱吧！
@@ -313,7 +313,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a3.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a3.jpg">
 
                                     <div class="m-t-xs">
                                         <i class="fa fa-star text-warning"></i>
@@ -331,7 +331,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a4.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a4.jpg">
                                 </div>
 
                                 <div class="media-body">
@@ -344,7 +344,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a8.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a8.jpg">
                                 </div>
                                 <div class="media-body">
 
@@ -357,7 +357,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a7.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a7.jpg">
                                 </div>
                                 <div class="media-body">
                                     这哥们的新视频又来了，创意杠杠滴，帅炸了！
@@ -369,7 +369,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a3.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a3.jpg">
 
                                     <div class="m-t-xs">
                                         <i class="fa fa-star text-warning"></i>
@@ -387,7 +387,7 @@
                         <div class="sidebar-message">
                             <a href="#">
                                 <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="__ADMIN__/img/a4.jpg">
+                                    <img alt="image" class="img-circle message-avatar" src="/tp_erp_shop/Public/admin/img/a4.jpg">
                                 </div>
                                 <div class="media-body">
                                     我发起了一个投票 【你认为下午大盘会翻红吗？】
@@ -799,18 +799,18 @@
 </script>
 
 <!-- 全局js -->
-<script src="__ADMIN__/js/jquery.min.js"></script>
-<script src="__ADMIN__/js/bootstrap.min.js?v=3.4.0"></script>
-<script src="__ADMIN__/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="__ADMIN__/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-<script src="__ADMIN__/js/plugins/layer/layer.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/jquery.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/bootstrap.min.js?v=3.4.0"></script>
+<script src="/tp_erp_shop/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/plugins/layer/layer.min.js"></script>
 
 <!-- 自定义js -->
-<script src="__ADMIN__/js/hplus.min.js?v=3.2.0"></script>
-<script src="__ADMIN__/js/contabs.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/hplus.min.js?v=3.2.0"></script>
+<script src="/tp_erp_shop/Public/admin/js/contabs.min.js"></script>
 
 <!-- 第三方插件 -->
-<script src="__ADMIN__/js/plugins/pace/pace.min.js"></script>
+<script src="/tp_erp_shop/Public/admin/js/plugins/pace/pace.min.js"></script>
 
 </body>
 

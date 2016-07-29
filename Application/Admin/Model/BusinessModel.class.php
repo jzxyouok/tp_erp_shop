@@ -30,4 +30,26 @@ class BusinessModel extends CommonModel
         array('updated_at', 'datetime', self::MODEL_UPDATE, 'function'),
     );
 
+    /**
+     * 获取商家信息
+     * @param $type
+     * @param bool $field
+     * @param string $id
+     * @return mixed
+     */
+    public function getBusiness( $type, $field = true)
+    {
+        $map['type'] = $type;
+
+        return $this->where($map)->field($field)->select();
+    }
+
+    public function getBusinessById($id, $field = '')
+    {
+        if(empty($field)) {
+            return $this->field(true)->find($id);
+        }
+
+        return $this->where(['id'=>$id])->getField($field);
+    }
 }
