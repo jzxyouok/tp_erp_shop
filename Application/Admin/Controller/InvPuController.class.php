@@ -13,6 +13,10 @@ class InvPuController extends InvController
 {
     public function index()
     {
+        $tr_list = [1,2,3,4,5];
+        
+        $this->assign(compact('tr_list'));
+
         $this->display();
     }
 }

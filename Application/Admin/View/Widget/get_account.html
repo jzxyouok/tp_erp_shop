@@ -1,0 +1,17 @@
+<?php if($disabled): ?>
+
+<?php else: ?>
+
+    <select class="form-control" name="unit">
+        <volist name="account_list" id="vo">
+            <eq name="vo.id" value="$account_id">
+                <option value="{$vo['id']}"  selected="selected" >{$vo['name']}</option>
+            <else/>
+                <option value="{$vo['id']}">{$vo['name']}</option>
+            </eq>
+        </volist>
+    </select>
+
+<?php endif; ?>
+
+

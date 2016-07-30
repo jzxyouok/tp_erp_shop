@@ -30,4 +30,17 @@ class AjaxController extends Controller
 
         $this->ajaxReturn($return);
     }
+
+
+    public function getPurSaleUser()
+    {
+        $list = D('PurSaleUser')->getPurSaleUser('id, realname');
+
+        $return['message'] = "";
+        $return['value'] = $list;
+        $return['code'] = 200;
+        $return['redirect'] = "";
+
+        $this->ajaxReturn($return);
+    }
 }

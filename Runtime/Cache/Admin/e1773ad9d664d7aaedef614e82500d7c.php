@@ -26,8 +26,10 @@
         .col-md-12,.col-md-11,.col-md-10,.col-md-9,.col-md-8,.col-md-7,.col-md-6,.col-md-5,.col-md-4,.col-md-3,.col-md-2,.col-md-1{ padding-left: 15px; padding-right: 15px;}
     </style>
     
+    <style>
+        .form-control  { border: none; border-bottom: 1px solid #e5e6e7; width: 90%;padding-left:0px;padding-right: 0px; }
+    </style>
 
-    
 
     <!-- 全局js -->
     <script src="/tp_erp_shop/Public/admin/js/jquery.min.js"></script>
@@ -47,7 +49,7 @@
                     <h5>购货单</h5>
                 </div>
 
-                <form action="<?php echo U('save', array('method'=>$method));?>" method="post" class="form-horizontal ajax-form" id="commentForm" >
+                <form action="" method="post" class="form-horizontal ajax-form" id="commentForm" >
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3">
@@ -70,69 +72,177 @@
 
                         <div class="col-sm-3">
                             <div class="form-group">
+                                <label class="col-sm-4 control-label">购货人：</label>
+                                <div class="col-sm-8">
+                                    <?php echo W('Public/getPurSaleUser',array('input_name'=>'pur_sale_id'));?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
                                 <label class="col-sm-4 control-label">单据编号：</label>
                                 <div class="col-sm-8">
                                     <input type="hidden" name="bill_no" value="CG201607291350014">
-                                    <input type="text" class="input-sm form-control" name="" placeholder="" value="CG201607291350014" disabled>
+                                    <span class="input-sm form-control">CG201607291350014</span>
                                 </div>
                             </div>
                         </div>
 
                     </div>
 
+                    <div class="hr-line-dashed" style="margin: auto;"></div>
 
                     <div class="table-responsive">
-                        <table class="table table-striped">
+                        <table class="table ">
                             <thead>
                             <tr>
-                                <th></th>
-                                <th>编号</th>
-                                <th>名称</th>
-                                <th>分类</th>
-                                <th>规格型号</th>
-                                <th>条形码</th>
+                                <th>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-xs" title="删除行">new</a>
+                                </th>
+                                <th>商品</th>
+                                <th>单位</th>
                                 <th>仓库</th>
-                                <th>计量单位</th>
-                                <th>预警：最低库存-最高库存</th>
-                                <th>价格：采购价-零售价-批发价-VIP价格</th>
-                                <th>折扣1-折扣2(%)</th>
-                                <th>期初:数量-单位成本-总价</th>
-                                <th>描述</th>
-                                <th>创建时间</th>
-                                <th>更新时间</th>
-                                <th>操作</th>
+                                <th>数量</th>
+                                <th>购货单价</th>
+                                <th>折扣率(%)</th>
+                                <th>折扣额</th>
+                                <th>购货金额</th>
+                                <th>备注</th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($_list)): $i = 0; $__LIST__ = $_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                <?php if(is_array($tr_list)): $i = 0; $__LIST__ = $tr_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="tr_<?php echo ($vo); ?>" data-sort="<?php echo ($vo); ?>">
+                                    <td><?php echo ($vo); ?></td>
+                                    <td><input type="text" name="data[goods_id]" value="" class="input-sm form-control"></td>
                                     <td>
-                                        <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" checked="" class="i-checks" name="input[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                                        <input type="text" name="data[unit]" value="" class="input-sm form-control">
                                     </td>
-                                    <td><?php echo ($vo['id']); ?></td>
-                                    <td><?php echo ($vo['name']); ?></td>
-                                    <td><?php echo ($goods_category[$vo['category']]); ?></td>
-                                    <td><?php echo ($vo['spec']); ?></td>
-                                    <td><?php echo ($vo['bar_code']); ?></td>
-                                    <td><?php echo ($goods_storage_house[$vo['storage_house']]); ?></td>
-                                    <td><?php echo ($unit_list[$vo['unit']]); ?></td>
-                                    <td><?php echo ($vo['min_inventory']); ?>-<?php echo ($vo['max_inventory']); ?></td>
-                                    <td><?php echo ($vo['purchase_price']); ?>-<?php echo ($vo['sale_price']); ?>-<?php echo ($vo['wholesale_price']); ?>-<?php echo ($vo['vip_price']); ?></td>
-                                    <td><?php echo ($vo['discount_rate_1']); ?>-<?php echo ($vo['discount_rate_2']); ?></td>
-                                    <td><?php echo ($vo['st_quantity']); ?>-<?php echo ($vo['st_unit_cost']); ?>-<?php echo ($vo['st_amount']); ?></td>
-                                    <td><?php echo ($vo['memo']); ?></td>
-                                    <td><?php echo ($vo['created_at']); ?></td>
-                                    <td><?php echo ($vo['updated_at']); ?></td>
                                     <td>
-
-                                        <a href="javascript:void(0)" url="<?php echo U('edit', array('type'=>$goods_type, 'id'=>$vo['id']));?>" class="btn btn-success btn-circle my-popup"><i class="fa fa-link"></i>
-                                        </a>
-                                        <a href="<?php echo U('delete', array('type'=>$goods_type, 'ids'=>$vo['id']));?>" class="btn btn-warning btn-circle ajax-get confirm"><i class="fa fa-times"></i>
-                                        </a>
-
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" value="" class="input-sm form-control">
+                                    </td>
+                                    <td>
+                                        <a href="javascript:void(0)" class="btn btn-warning btn-xs del" title="删除行">删除</a>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>
+
+
+
+
+
+                    </div>
+
+                    <div class="hr-line-dashed" style="margin: auto;"></div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <textarea class="input-sm form-control" style="width: 98%; margin-left: 1%;" name="memo" placeholder="备注信息"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="row">
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">购货总金额：</label>
+                                <div class="col-sm-7">
+                                    <input type="text" name="total_amount" value="0.00" class="input-sm form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">优惠率(%)：</label>
+                                <div class="col-sm-7">
+                                    <input type="text" name="dis_rate" value="0" class="input-sm form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">优惠金额：</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="input-sm form-control" name="bill_date" placeholder="" value="0.00">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">优惠后金额：</label>
+                                <div class="col-sm-7">
+                                    <input type="hidden" class="input-sm form-control" name="amount" placeholder="" value="">
+                                    <span class="input-sm form-control">0.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">本次付款：</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="input-sm form-control" name="rp_amount" placeholder="" value="0.00">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">结算账户：</label>
+                                <div class="col-sm-7">
+                                    <?php echo W('Public/getAccount',array('input_name'=>'acc_id'));?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">本次欠款：</label>
+                                <div class="col-sm-7">
+                                    <input type="hidden" class="input-sm form-control" name="arrears" placeholder="" value="">
+                                    <span class="input-sm form-control">0.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="hr-line-dashed" style="margin: auto;"></div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label">制单人：</label>
+                                <div class="col-sm-7">
+                                    <span class="input-sm form-control"><?php echo session('user_auth.nickname');?></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -174,7 +284,19 @@
 <script src="/tp_erp_shop/Public/admin/js/public.js"></script>
 
 
+    <script>
+        $(function () {
 
+           $(".table-responsive").on("click", ".del", function () {
+               $(this).parent().parent().remove();
+
+               $(".table tbody tr").each(function (i, n) {
+                   $(n).children().eq(0).text(i+1);
+               });
+           })
+
+        });
+    </script>
 
 
 </body>
